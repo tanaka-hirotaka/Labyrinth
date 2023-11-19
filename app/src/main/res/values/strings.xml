@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Random Labyrinth</string>
+    <string name="start">start</string>
+    <string name="result">Result</string>
+    <string name="restart">restart</string>
+    <string name="go_to_top">go to top</string>
+    <string name="version">ver1.0.3</string>
+</resources>

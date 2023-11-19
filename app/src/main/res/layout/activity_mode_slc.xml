@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:id="@+id/activity_mode_slc"
+    tools:context="com.example.labyrinth.ModeSlcActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="MODE SELECTION"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slc_text_very_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:background="#202020"
+        android:text="10x10     -Very Easy-"
+        android:textColor="#c0c0ff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/slc_text_easy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#202020"
+        android:textColor="#9090ff"
+        android:textSize="20sp"
+        android:text="50x50     -Easy-"
+        android:padding="10dip"/>
+
+    <TextView
+        android:id="@+id/slc_text_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#202020"
+        android:textColor="#90ff90"
+        android:textSize="20sp"
+        android:text="100x100-Normal-"
+        android:padding="10dip"/>
+
+    <TextView
+        android:id="@+id/slc_text_danger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#202020"
+        android:textColor="#ff9090"
+        android:textSize="20sp"
+        android:text="150x150-Danger-"
+        android:padding="10dip"/>
+
+</LinearLayout>
